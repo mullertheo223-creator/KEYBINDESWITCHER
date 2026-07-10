@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "keybindeswitcher",
+  "version": "${version}",
+
+  "name": "KEYBINDESWITCHER",
+  "description": "Switches between two complete keybind profiles.",
+  "authors": [
+    "mullertheo223"
+  ],
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "de.keybindeswitcher.KeybindSwitcher"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": ">=1.21.4"
+  }
+}
